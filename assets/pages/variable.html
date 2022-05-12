@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Etnomatemática</title>
+  <link rel="shortcut icon" href="../img/logo_white.png" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/c2dc5e4e4b.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="../css/header.css" />
+  <link rel="stylesheet" href="../css/variable.css" />
+  <link rel="stylesheet" href="../css/generales.css" />
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <img src="../img/Konrad_Lorenz.png" alt="Konrad_Lorenz" />
+      <h3>Fundación Universitaria Konrad Lorenz</h3>
+    </nav>
+    <a href="../../index.html">
+      <div class="volver">
+        <i class="fas fa-undo-alt"></i>
+        <p>Volver</p>
+      </div>
+    </a>
+    <h1 class="titulo">Variable</h1>
+    <div class="barra"></div>
+  </header>
+  <main class="main">
+    <section class="imagenes">
+      <img class="img" src="../img/variable/seña1.png" alt="seña1" />
+      <img class="img" src="../img/variable/seña2.png" alt="seña2" />
+      <img class="img" src="../img/variable/seña3.png" alt="seña3" />
+      <img class="img" src="../img/variable/seña4.png" alt="seña4" />
+      <img class="img" src="../img/variable/seña5.png" alt="seña5" />
+      <img class="img" src="../img/variable/seña6.png" alt="seña6" />
+      <img class="img" src="../img/variable/seña7.png" alt="seña7" />
+      <img class="img" src="../img/variable/seña8.png" alt="seña8 " />
+    </section>
+    <section class="textos QueEsVariable">
+      <h3 class="textos-titulo">¿Qué es variable?</h3>
+      <p class="textos-parrafo">
+        Es un elemento que tiene un nombre y un valor.
+      </p>
+      <h3 class="textos-ejemplos">Por ejemplo:</h3>
+      <p class="textos-parrafo">
+        Carlos recibe de su papá $1.000 pesos todos los días para comprar comida en descanso, pero la mamá dependiendo
+        del día le da un dinero “adicional”. ¿cuánto dinero recibe cada día?
+      </p>
+      <div class="tabla">
+        <table>
+          <tr>
+            <th>Días de la semana</th>
+            <th>Dinero de papá</th>
+            <th>Dinero de "Adicional" de mamá</th>
+            <th>Total del dinero recibido</th>
+          </tr>
+          <tr>
+            <td>Lunes</td>
+            <td>$1000</td>
+            <td>$500</td>
+            <td>$1500</td>
+          </tr>
+          <tr>
+            <td>Martes</td>
+            <td>$1000</td>
+            <td>$1300</td>
+            <td>$2300</td>
+          </tr>
+          <tr>
+            <td>Miércoles</td>
+            <td>$1000</td>
+            <td>$900</td>
+            <td>$1900</td>
+          </tr>
+          <tr>
+            <td>Jueves</td>
+            <td>$1000</td>
+            <td>$1000</td>
+            <td>$2000</td>
+          </tr>
+          <tr>
+            <td>Viernes</td>
+            <td>$1000</td>
+            <td>$100</td>
+            <td>$1100</td>
+          </tr>
+        </table>
+      </div>
+      <div class="grafico">
+        <h3 class="textos-ejemplos">Gráfico:</h3>
+        <img src="../img/variable/grafico.png" alt="grafico">
+      </div>
+      <h3 class="textos-titulo">Videos</h3>
+      <div class="video">
+        <video src="../video/primero.mp4" width=420 height=340 controls poster="vistaprevia.jpg">
+          Lo sentimos. Este vídeo no puede ser reproducido en tu navegador.<br>
+        </video>
+      </div>
+      <div class="video">
+        <video src="../video/cuarto.mp4" width=420 height=340 controls poster="vistaprevia.jpg">
+          Lo sentimos. Este vídeo no puede ser reproducido en tu navegador.<br>
+        </video>
+      </div>
+      <h3 class="textos-ejemplos">Ejemplo:</h3>
+      <div class="primerElemento">
+        <p class="textos-primerElemento primerElemento-coeficiente">
+          Coeficiente
+        </p>
+        <canvas id="linea1" class="canvas" width="80" height="80"> </canvas>
+        <div class="contenedor-primerElemento">
+          <p class="cts">3</p>
+          <p class="var"> <span class="x"> <i>x</i> </span> </p>
+        </div>
+        <canvas id="linea2" class="canvas" width="80" height="80"></canvas>
+        <p class="textos-primerElemento primerElemento-variable">Variable</p>
+      </div>
+      <div class="segundoElemento">
+        <div class="contendor-segundoElemento">
+          <p class="textos-segundoElemento">
+            Se puede representar la <span class="x"><i>x</i></span> de varias maneras, como por ejemplo:
+          </p>
+        </div>
+        <canvas id="linea3" class="canvas" width="400" height="50"></canvas>
+        <div class="imagenes">
+          <div class="contenedorImg">
+            <img class="imagen" src="../img/variable/Imagen2.png" alt="manzana" />
+            <img class="imagen" src="../img/variable/Imagen2.png" alt="manzana" />
+            <img class="imagen" src="../img/variable/Imagen2.png" alt="manzana" />
+          </div>
+          <div class="contenedorImg">
+            <img class="imagen" src="../img/variable/Imagen3.png" alt="manzana" />
+            <img class="imagen" src="../img/variable/Imagen3.png" alt="manzana" />
+            <img class="imagen" src="../img/variable/Imagen3.png" alt="manzana" />
+          </div>
+          <div class="contenedorImg">
+            <img class="imagen" src="../img/variable/Imagen4.png" alt="manzana" />
+            <img class="imagen" src="../img/variable/Imagen4.png" alt="manzana" />
+            <img class="imagen" src="../img/variable/Imagen4.png" alt="manzana" />
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <video src="../video/segundo.mp4" width=420 height=340 controls poster="vistaprevia.jpg">
+          Lo sentimos. Este vídeo no puede ser reproducido en tu navegador.<br>
+        </video>
+      </div>
+    </section>
+    <section class="textos QueEsConstante">
+      <h3 class="textos-titulo constantes">¿Qué es constante?</h3>
+      <ul>
+        <li class="textos-constante">Constante: Es un número</li>
+      </ul>
+      <h3 class="textos-ejemplos">Ejemplo:</h3>
+      <div class="numeros">
+        <img class="imgNumeros" src="../img/variable/uno.png" alt="uno" />
+        <img class="imgNumeros" src="../img/variable/tres.png" alt="tres" />
+        <img class="imgNumeros" src="../img/variable/cinco.png" alt="cinco" />
+      </div>
+      <div class="definicionFormal">
+        <h3>Definición formal de variable</h4>
+          <h3 class="textos-titulo">¿Qué es variable?</h3>
+          <p class="textos-constante">Es una expresión que se usa para designar una cantidad desconocida.
+          </p>
+      </div>
+    </section>
+    <section class="Actividad">
+      <h3 class="textos-titulo preguntas">Hora de practicar</h3>
+      <div class="pregunta1">
+        <p class="textos textos-parrafo">
+          En la siguiente expresión, ¿Cúal es la
+          <span class="spanVar">Variable</span>?
+        </p>
+        <div class="respuestas">
+          <p class="Signo">7x</p>
+          <p class="Signo">→</p>
+          <div class="botones">
+            <button class="btn" id="pregunta1.1">x</button>
+            <button class="btn" id="pregunta1.2">7</button>
+          </div>
+          <img class="gif" src="../img/variable/gif.gif" alt="gif">
+        </div>
+      </div>
+      <div class="pregunta2">
+        <p class="textos textos-parrafo">
+          En la siguiente expresión, ¿Cúal es la
+          <span class="spanCts">Constante</span>?
+        </p>
+        <div class="respuestas">
+          <p class="Signo">3y</p>
+          <p class="Signo">→</p>
+          <div class="botones">
+            <button class="btn" id="pregunta2.1">y</button>
+            <button class="btn" id="pregunta2.2">3</button>
+          </div>
+        </div>
+      </div>
+      <h3 class="textos-titulo preguntas">Actividad</h3>
+      <div class="textos textos preguntasActividad">
+        <p>1) ¿Cuál es la variable del término 13x+5?</p>
+        <div class="opciones">
+          <div class="opcion">
+            <button class="btnActividad" id="pregunta3.1">A</button>
+            <p>13</p>
+          </div>
+          <div class="opcion">
+            <button class="btnActividad" id="pregunta3.2">B</button>
+            <p>x</p>
+          </div>
+          <div class="opcion">
+            <button class="btnActividad" id="pregunta3.3">C</button>
+            <p>5</p>
+          </div>
+        </div>
+        <br>
+        <p>2) De acuerdo con las siguientes expresiones, completa cada espacio con la información faltante en donde
+          tienes que encontrar los números que puede tomar la variable x para que de la respuesta correcta.</p>
+        <div class="opciones">
+          <div class="opcion">
+            <p><input type="number" class="btnTexto" id="pregunta6.1"></input>&nbsp + 3 = 5</p>
+          </div>
+          <div class="opcion">
+            <p>4 ·&nbsp<input type="number" class="btnTexto" id="pregunta6.2">&nbsp+ 8 = 16</input></p>
+          </div>
+          <div class="opcion">
+            <p>4 ·&nbsp<input type="number" class="btnTexto" id="pregunta6.3">&nbsp- 8 = 0</input></p>
+          </div>
+        </div>
+        <div class="validar">
+          <button class="btnValidar" id="validar3">Validar</button>
+        </div>
+      </div>
+      <br>
+    </section>
+    <section class="textos VariablesIndYDep">
+      <h2 class="titulo">Variable Independiente y Dependiente</h2>
+      <div class="barra"></div>
+      <br>
+
+      <h3 class="textos-ejemplos">Ejemplo:</h3>
+      <br>
+      <p>La profesora de matemáticas le pone un taller de 10 ejercicios a los alumnos en donde cada ejercicio vale 5
+        puntos, si todo lo responde bien da un total de 50 puntos
+      </p>
+      <div class="tabla">
+        <table>
+          <tr>
+            <th>Número total de puntos</th>
+            <th>Puntos por cada respuesta</th>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td class="rojo">0</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>25</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>30</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>35</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>40</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>45</td>
+            <td>8</td>
+          </tr>
+        </table>
+        <div class="textosTabla">
+          <p>Entonces:</p>
+          <ul>
+            <li>Número total de puntos = P</li>
+            <li>Puntos por cada respuesta = R</li>
+          </ul>
+          <p>La ecuación que representa la tabla es la siguiente:</p>
+          <p>P = 5·R </p>
+          <h3 class="textos-ejemplos">Ejemplo:</h3>
+          <p>
+            Por cada respuesta correcta obtienes 5 puntos, luego si no tienes ninguna respuesta correcta se tendrías
+            cero puntos. Esto se vería de la siguiente forma:
+          </p>
+          <div class="centrar">
+            <p>P = 5·R </p>
+            <p>P = 5·<span class="rojo">0</span></p>
+            <p>P = 0</p>
+          </div>
+          <p>
+            Por cada respuesta correcta obtienes 5 puntos, luego si no tienes ninguna respuesta correcta se obtendrían 1
+            puntos. Esto se vería de la siguiente forma:
+          </p>
+          <div class="centrar">
+            <p>P = 5·R </p>
+            <p>P = 5·<span class="rojo">1</span></p>
+            <p>P = 5</p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <video src="../video/tercero.mp4" width=420 height=340 controls poster="vistaprevia.jpg">
+          Lo sentimos. Este vídeo no puede ser reproducido en tu navegador.<br>
+        </video>
+      </div>
+      <div class="definicionFormal">
+        <h3>Definición formal de variable dependiente y independiente</h4>
+          <br>
+          <h3 class="textos-titulo dependienteIndependiente">¿Qué es variable independiente?</h3>
+          <br>
+          <p class="textos-constante">Las variables independientes son aquellas variables que se conocen al inicio de un
+            experimento o proceso.
+          </p>
+          <br>
+          <h3 class="textos-titulo dependienteIndependiente">¿Qué es variable dependiente?</h3>
+          <br>
+          <p class="textos-constante">Las variables dependientes son las que se crean como resultado del estudio o
+            experimento.
+          </p>
+      </div>
+    </section>
+    <section class="textos Actividad">
+      <h3 class="textos-titulo preguntas">Actividad</h3>
+      <p>1) Marca cuales de los siguientes enunciados son correctos:</p>
+      <div class="opciones">
+        <div class="opcion">
+          <input type="checkbox" class="btnActividad" id="pregunta7.1"></input>
+          <p id="texto5">La variable independiente es el número total de puntos.</p>
+        </div>
+        <div class="opcion">
+          <input type="checkbox" class="btnActividad" id="pregunta7.2"></input>
+          <p id="texto6">La variable dependiente es el número total de puntos.</p>
+        </div>
+        <div class="opcion">
+          <input type="checkbox" class="btnActividad" id="pregunta7.3"></input>
+          <p id="texto7">La variable independiente es los puntos por cada respuesta.</p>
+        </div>
+        <div class="opcion">
+          <input type="checkbox" class="btnActividad" id="pregunta7.4"></input>
+          <p id="texto8">La variable dependiente es los puntos por cada respuesta.</p>
+        </div>
+      </div>
+      <div class="validar">
+        <button class="btnValidar" id="validar4">Validar</button>
+      </div>
+      <br>
+      <p>2) Juan, le pide dinero a sus papás para ir a comprar manzanas en la tienda de al lado de su casa, en la tienda
+        venden cada manzana a $1.000 pesos. ¿Cuál de los siguientes enunciados son verdaderos? </p>
+      <div class="opciones">
+        <div class="opcion">
+          <input type="checkbox" class="btnActividad" id="pregunta8.1"></input>
+          <p id="texto9">La variable dependiente es el número de manzanas que compra Juan.</p>
+        </div>
+        <div class="opcion">
+          <input type="checkbox" class="btnActividad" id="pregunta8.2"></input>
+          <p id="texto10">La variable independiente es el número de manzanas que compra Juan.</p>
+        </div>
+        <div class="opcion">
+          <input type="checkbox" class="btnActividad" id="pregunta8.3"></input>
+          <p id="texto11">La variable dependiente es la cantidad de dinero que gasta Juan en manzanas.</p>
+        </div>
+        <div class="opcion">
+          <input type="checkbox" class="btnActividad" id="pregunta8.4"></input>
+          <p id="texto12">La variable independiente es la cantidad de dinero que gasta Juan en manzanas. </p>
+        </div>
+      </div>
+      <div class="validar">
+        <button class="btnValidar" id="validar5">Validar</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <a href="relacion.html"> -> Seguir con relación</a>
+    </footer>
+  </main>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="../scripts/preguntasVariable.js"></script>
+  <script src="../scripts/canvasVariable.js"></script>
+</body>
+
+</html>
